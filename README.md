@@ -4,6 +4,8 @@ A tiny regression harness for rendered prompts. Record snapshots, attach `contai
 
 **Status:** v0.1.1 · Confidence: high (deterministic structural checks) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Prompt templates get edited constantly — wording tweaks, new variables, swapped examples — and rendered output drifts silently. Teams notice when a user complains, not when the prompt changed. There is no cheap, offline way to diff *rendered* prompts and enforce simple expectations on them without wiring up a testing framework.
